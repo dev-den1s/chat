@@ -1,0 +1,57 @@
+body {
+       text-align: center;
+    }
+
+            div {
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            .chatbox {
+                display: none;
+            }
+
+            .messages {
+                background-color: #369;
+                width: 500px;
+                padding: 20px;
+            }
+
+            .messages .msg {
+                background-color: #fff;
+                border-radius: 10px;
+                margin-bottom: 10px;
+                overflow: hidden;
+            }
+
+
+            .sendBlock button{
+                     width: 50;
+                     height: 50;
+                     bottom: 4px;
+                     left: -1;
+                     position: relative;
+            }
+
+
+
+            .messages .msg .from {
+                background-color: #396;
+                line-height: 30px;
+                text-align: center;
+                color: white
+            }
+
+            .messages .msg .text {
+                padding: 10px;
+            }
+
+            textarea.msg {
+                width: 487px;
+                    padding: 10px;
+                    position: relative;
+                    resize: none;
+                    top: 17;
+                    border: none;
+                    box-shadow: 2px 2px 5px 0 inset;
+            }
